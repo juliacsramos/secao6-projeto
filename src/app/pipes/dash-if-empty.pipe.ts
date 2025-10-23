@@ -10,5 +10,6 @@ export class DashIfEmptyPipe implements PipeTransform {
     if (IS_EMPTY){
         return '--';
     }
+    return value
   }
 }
